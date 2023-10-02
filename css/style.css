@@ -45,12 +45,16 @@ header img {
  header nav ul{
     list-style: none;
  }
-  div:nth-of-type(2){
+ header div:nth-of-type(2){
     display: inline-flex;
     justify-content: right;
     position: absolute;
     top: 5%;
     left: 50%;
+ }
+ header nav {
+    display:inline;
+    justify-content: center;
  }
 
   main h1 {
