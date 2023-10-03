@@ -19,13 +19,13 @@
                     <li><a href="../pages/rotation.html">Rotation</a>
                         <span><p>/</p></span>
                     </li>
-                     <li><a href="zoom.html" >Zoom</a>
+                     <li><a href="../pages/zoom.html" >Zoom</a>
                         <span><p>/</p></span>
                     </li>
                     <li><a href="../pages/inclinaison.html">Inclinaison</a>
                          <span><p>/</p></span>
                     </li>
-                    <li><a href="#">DÉplacement</a>
+                    <li><a href="déplacement.html">DÉplacement</a>
                         <span><p>/</p></span>
                    </li>
                    <li><a href="#">Origine</a>

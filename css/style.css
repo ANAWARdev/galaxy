@@ -134,18 +134,77 @@ padding-top: 180px;
     #rot>div div:nth-of-type(3):hover{
     transform: rotate(45deg);
   }
-/*********************ZOOM********************
-*********************************************/
-#zoom>div div:first-of-type{
+/****************inclinaison********************/
+#incli>div div:first-of-type{
     transform: scale(1.2);
   }
-  #zoom>div div:nth-of-type(2):hover{
+  #incli>div div:nth-of-type(2):hover{
     transform: scale(0.8);
   }
-  #zoom>div div:nth-of-type(3){
+  #incli>div div:nth-of-type(3){
     transition: 0.5;}
 
-    #zoom>div div:nth-of-type(3):hover{
+    #incli>div div:nth-of-type(3):hover{
         transform: scale(0.3);
   }
+  #incli>div div:first-of-type{
+    transform: scale(1.2);
+  }
+  #incli>div div:nth-of-type(2):hover{
+    transform: scale(0.8);
+  }
+  #incli>div div:nth-of-type(3){
+    transition: 0.5;}
+
+    #incli>div div:nth-of-type(3):hover{
+        transform: scale(0.3);
+  }
+/****************déplacement********************/
+#dépla>div div:first-of-type{
+  transform: scale(1.2);
+}
+#dépla>div div:nth-of-type(2):hover{
+  transform: scale(0.8);
+}
+#dépla>div div:nth-of-type(3){
+  transition: 0.5;}
+ #dépla>div div:nth-of-type(3):hover{
+      transform: scale(0.3);
+}
+#dépla>div div:first-of-type{
+  transform: scale(1.2);
+}
+#dépla>div div:nth-of-type(2):hover{
+  transform: scale(0.8);
+}
+#dépla>div div:nth-of-type(3){
+  transition: 0.5;}
+
+  #dépla>div div:nth-of-type(3):hover{
+      transform: scale(0.3);
+}
+/****************origin********************/
+#origine>div div:first-of-type{
+  transform: scale(1.2);
+}
+#origine>div div:nth-of-type(2):hover{
+  transform: scale(0.8);
+}
+#origine>div div:nth-of-type(3){
+  transition: 0.5;}
+ #origine>div div:nth-of-type(3):hover{
+      transform: scale(0.3);
+}
+#origine>div div:first-of-type{
+  transform: scale(1.2);
+}
+#origine>div div:nth-of-type(2):hover{
+  transform: scale(0.8);
+}
+#origine>div div:nth-of-type(3){
+  transition: 0.5;}
+
+  #origine>div div:nth-of-type(3):hover{
+      transform: scale(0.3);
+}
 
