@@ -76,7 +76,7 @@ header nav {
     letter-spacing: 1px;/*espacer entre les lettres*/
    
  }
- header nav ul li a:hover {
+ header nav ul li a:hover .ici{
     border-bottom: 5px solid #333333;
  }
  header nav ul li p {
@@ -101,5 +101,51 @@ header nav {
     font-family: 'Dolce Vita';
     font-weight:normal;
   }
- 
+
+
+
+  /***********************************
+  Les Pages 
+  ***********************************/
+section>div {
+display:flex;
+justify-content: center;
+align-items: center;
+padding-top: 180px;
+
+}
+  section>div div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    margin: 30px;
+  }
+
+  /*rotation*/
+  #rot>div div:first-of-type{
+    transform: rotate(45deg);
+  }
+  #rot>div div:nth-of-type(2):hover{
+    transform: rotate(45deg);
+  }
+  #rot>div div:nth-of-type(3){
+    transition: 0.5;}
+
+    #rot>div div:nth-of-type(3):hover{
+    transform: rotate(45deg);
+  }
+/*********************ZOOM********************
+*********************************************/
+#zoom>div div:first-of-type{
+    transform: scale(1.2);
+  }
+  #zoom>div div:nth-of-type(2):hover{
+    transform: scale(0.8);
+  }
+  #zoom>div div:nth-of-type(3){
+    transition: 0.5;}
+
+    #zoom>div div:nth-of-type(3):hover{
+        transform: scale(0.3);
+  }
 
