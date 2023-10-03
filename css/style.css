@@ -1,11 +1,15 @@
+*{
+    margin:0;
+    padding:0;
+}
 /************début fonts************/
 @font-face {
-    font-family: 'Dolce Vita';
+    font-family: 'Dolce';
     src: url('../fonts/DolceVita.eot');
     src: url('../fonts/DolceVita.eot?#iefix') format('embedded-opentype'),
         url('../fonts/DolceVita.woff2') format('woff2'),
         url('../fonts/DolceVita.woff') format('woff'),
-        url(../fonts/'../fonts/DolceVita.ttf') format('truetype');
+        url('../fonts/DolceVita.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -34,47 +38,66 @@
     font-style: normal;
     font-display: swap;
 }
-
 /**************fin fonts*************/
-header img {
-    margin: 20px;
-}
  header {
-    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    margin-right: 15px;
+ }
+header img {
+    height:40px;
+    padding-top: 10px;
+    padding-left: 10px;
+    }
+header nav {
+ display: flex;
+ align-items: end;
+
  }
  header nav ul{
     list-style: none;
+    display:flex;
+ 
  }
- header div:nth-of-type(2){
-    display: inline-flex;
-    justify-content: right;
-    position: absolute;
-    top: 5%;
-    left: 50%;
+ header nav ul li{
+    display: flex;
+    align-items: baseline;
  }
- header nav {
-    display:inline;
-    justify-content: center;
+ header nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #333333;
+    font-style: bold;
+    font-size: 20px;
+    height: 30px;
+    box-sizing: border-box;
+    font-family: 'Dolce';
+   
  }
-
+ header nav ul li a:hover {
+    border-bottom: 5px solid #333333;
+ }
+ header nav ul li p {
+    color: #333333;
+    font-style: bold;
+    font-size: 15px;
+    margin: 5px; 
+ }
+ main section { 
+    height: calc(100vh - 60px);  
+  background-image: url(../images/fond3\ \(1\).jpg);
+  background-size:cover; 
+}
   main h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 180px;
     color: white;
     text-align: center; 
-    font-size: 60px;
-    padding: 20%;
-    margin: 0px 0px;
+    font-size: 100px;
+    font-family: 'Dolce Vita';
   }
  
-main section {   
-  background-image: url(../images/fond3\ \(1\).jpg);
-  background-size:cover;
-  height: 100vh;
-  
-}
-{
-    margin: 0;
-    padding: 0;
-}
-header {
-    height: 100px;
-}
+
