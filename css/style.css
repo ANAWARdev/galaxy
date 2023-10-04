@@ -76,7 +76,7 @@ header nav {
     letter-spacing: 1px;/*espacer entre les lettres*/
    
  }
- header nav ul li a:hover {
+ header nav ul li a:hover, .ici {
     border-bottom: 5px solid #333333;
  }
  header nav ul li p {
@@ -146,10 +146,10 @@ padding-top: 180px;
 #zoom>div div:first-of-type{
     transform: scale(1.2);
   }
-  #zomm>div div:nth-of-type(2):hover {
-    transform: scale(0.8);
+  #zoom>div div:nth-of-type(2):hover {
+    transform: scale(2);
   }
-  #zoom>div div:nth-of-type(3) {
+  #zoom>div div:nth-of-type(3){
     transition: 0.5s;}
 
  #zoom>div div:nth-of-type(3):hover {
@@ -170,40 +170,29 @@ padding-top: 180px;
       transform: rotate(5deg);
   }
 /****************déplacement********************/
-#dépla>div div:first-of-type{
+#depla>div div:first-of-type{
   transform: translate(60px, -20px);
 }
-#dépla>div div:nth-of-type(2):hover{
+#depla>div div:nth-of-type(2):hover{
   transform: translate(100px, 25px);        
 }
-#dépla>div div:nth-of-type(3){
-  transition: 0.5 s;}
+#depla>div div:nth-of-type(3):hover{
+  transform: translate(100px, 40px);}
  
- #dépla>div div:nth-of-type(3):hover{
+ #depla>div div:nth-of-type(3):hover{
   transform:translate(70px, 35px);
 }
-/****************origin********************/
+/****************origine********************/
 #origine>div div:first-of-type{
-  transform: scale(1.2);
+  transform-origin: 10% 50%;;
 }
 #origine>div div:nth-of-type(2):hover{
-  transform: scale(0.8);
+  transform-origin: 70% -30%;;
 }
 #origine>div div:nth-of-type(3){
   transition: 0.5;}
  #origine>div div:nth-of-type(3):hover{
-      transform: scale(0.3);
+  transform-origin: -20% -50%;;
 }
-#origine>div div:first-of-type{
-  transform: scale(1.2);
-}
-#origine>div div:nth-of-type(2):hover{
-  transform: scale(0.8);
-}
-#origine>div div:nth-of-type(3){
-  transition: 0.5;}
 
-  #origine>div div:nth-of-type(3):hover{
-      transform: scale(0.3);
-}
 
