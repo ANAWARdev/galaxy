@@ -94,6 +94,19 @@ header nav {
   align-items: center;
   flex-direction: column;
 }
+main section a{
+  color: black;/* couleur du lien A*/
+  padding: 15px 30px; /*ajoute une marge interne de 15px en haut et en bas et 30px à gauche et à droite*/
+  background: white;/*fond de couleur*/
+  font-family: "Dolce";/*change la font*/
+  letter-spacing: 1px;/*espace les lettres*/
+  text-decoration: none;/*enlève le soulignement*/
+  transition:0.5s;/*va mettre un effet sur les changements du hover*/
+}
+main section a:hover{
+  background: black;/* change la couleur de fond au survol*/
+  color:white;/* change la couleur du texte au survol*/
+}
   main section h1 {
     display: flex;
     align-items: center;
