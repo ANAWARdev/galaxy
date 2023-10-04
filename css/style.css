@@ -89,6 +89,10 @@ header nav {
     height: calc(100vh - 60px);  
   background-image: url(../images/fond3\ \(1\).jpg);
   background-size:cover; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
   main section h1 {
     display: flex;
@@ -122,66 +126,61 @@ padding-top: 180px;
   }
 
   /*rotation*/
-  #rot>div div:first-of-type{
+  #rot>div div:first-of-type {
+    transform: rotate(45deg);
+    
+  }
+  div:first-of-type {
+    margin-right: 60px;
+  }
+  #rot>div div:nth-of-type(2):hover {
     transform: rotate(45deg);
   }
-  #rot>div div:nth-of-type(2):hover{
-    transform: rotate(45deg);
-  }
-  #rot>div div:nth-of-type(3){
-    transition: 0.5;}
+  #rot>div div:nth-of-type(3) {
+    transition: 0.5 s;}
 
-    #rot>div div:nth-of-type(3):hover{
+    #rot>div div:nth-of-type(3):hover {
     transform: rotate(45deg);
+  }
+/****************zoom********************/
+#zoom>div div:first-of-type{
+    transform: scale(1.2);
+  }
+  #zomm>div div:nth-of-type(2):hover {
+    transform: scale(0.8);
+  }
+  #zoom>div div:nth-of-type(3) {
+    transition: 0.5s;}
+
+ #zoom>div div:nth-of-type(3):hover {
+        transform: scale(0.3);
   }
 /****************inclinaison********************/
-#incli>div div:first-of-type{
-    transform: scale(1.2);
+
+  #incli>div div:first-of-type {
+    transform: rotate(15deg);
   }
   #incli>div div:nth-of-type(2):hover{
-    transform: scale(0.8);
+    transform: rotate(-30deg);
   }
-  #incli>div div:nth-of-type(3){
-    transition: 0.5;}
+  #incli>div div:nth-of-type(3) {
+    transition: 0.5s;}
 
     #incli>div div:nth-of-type(3):hover{
-        transform: scale(0.3);
-  }
-  #incli>div div:first-of-type{
-    transform: scale(1.2);
-  }
-  #incli>div div:nth-of-type(2):hover{
-    transform: scale(0.8);
-  }
-  #incli>div div:nth-of-type(3){
-    transition: 0.5;}
-
-    #incli>div div:nth-of-type(3):hover{
-        transform: scale(0.3);
+      transform: rotate(5deg);
   }
 /****************déplacement********************/
 #dépla>div div:first-of-type{
-  transform: scale(1.2);
+  transform: translate(60px, -20px);
 }
 #dépla>div div:nth-of-type(2):hover{
-  transform: scale(0.8);
+  transform: translate(100px, 25px);        
 }
 #dépla>div div:nth-of-type(3){
-  transition: 0.5;}
+  transition: 0.5 s;}
+ 
  #dépla>div div:nth-of-type(3):hover{
-      transform: scale(0.3);
-}
-#dépla>div div:first-of-type{
-  transform: scale(1.2);
-}
-#dépla>div div:nth-of-type(2):hover{
-  transform: scale(0.8);
-}
-#dépla>div div:nth-of-type(3){
-  transition: 0.5;}
-
-  #dépla>div div:nth-of-type(3):hover{
-      transform: scale(0.3);
+  transform:translate(70px, 35px);
 }
 /****************origin********************/
 #origine>div div:first-of-type{
